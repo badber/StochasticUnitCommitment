@@ -1,15 +1,18 @@
+% Author: Luis Badesa
+
+%%
 clearvars 
 clc 
 
-% The units here are GW, k£/GW and k£ to keep the range of variables closer
+% The units here are GW, kÂ£/GW and kÂ£ to keep the range of variables closer
 
 
 %% Generation costs:
 % (In the form)
 % c = [cost_gen1 cost_gen2 cost_gen3...]';
-NLHR = [0.54*ones(1,10) 0.3*ones(1,5)]'; % k£/h
-HRS = [47*ones(1,10) 200*ones(1,5)]'; % k£/GWh
-stc = [1*ones(1,10) 0*ones(1,5)]'; % k£
+NLHR = [0.54*ones(1,10) 0.3*ones(1,5)]'; % kÂ£/h
+HRS = [47*ones(1,10) 200*ones(1,5)]'; % kÂ£/GWh
+stc = [1*ones(1,10) 0*ones(1,5)]'; % kÂ£
 
 
 %% Capacities and limits:
@@ -38,7 +41,7 @@ Ramp_limits = [Ramp_CCGT;
           
 
 %% Other parameters
-VOLL = 30e3; % Units: k£/GWh
+VOLL = 30e3; % Units: kÂ£/GWh
 
 tau = 1; % 1 hour time step
 
