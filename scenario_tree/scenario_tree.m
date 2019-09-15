@@ -35,7 +35,7 @@ end
 % Probabilities to reach each node, referred to the root node
 prob(1:length(quantiles),1)=zeros(length(quantiles),1);
 prob(ceil(length(quantiles)/2),1)=1;
-for k=2 % The only stage with branches is the 1st one
+for k=2 % The only node with branches is the 1st one
     for n=1:length(quantiles)
         if n==1
             prob(n,k) = 0.5*(quantiles(2)^2/(quantiles(2)-quantiles(1)));
