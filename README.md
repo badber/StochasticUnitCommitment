@@ -7,3 +7,5 @@ This code solves a **two-stage, multi-period Stochastic Unit Commitment (SUC)**.
 - An alternative approach which models uncertainty through a scenario tree is included in folder "[scenario_tree](scenario_tree/)". This approach in inspired by [this paper](https://ieeexplore.ieee.org/document/6026941).
 
 The optimisation problem is solved via the toolbox **YALMIP**, you can find instructions on how to install it [here](https://yalmip.github.io/tutorial/installation/). You will also need to install some external solver like Mosek or Gurobi, both of which have academic licenses available. Remember to also install the Matlab functionalities of that solver.
+
+This code has been tested with MATLAB version 2017b.
