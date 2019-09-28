@@ -8,4 +8,6 @@ This code solves a **two-stage, multi-period Stochastic Unit Commitment (SUC)**.
 
 The optimisation problem is solved via the toolbox **YALMIP**, you can find instructions for how to install it [here](https://yalmip.github.io/tutorial/installation/). You will also need to install some external solver like Mosek or Gurobi, both of which have academic licenses available. Remember to also install the Matlab functionalities of that solver.
 
+YALMIP is very easy to use. Once installed, you can learn how to use it with file "simple_EconomicDispatch_YALMIP.m", contained in this repository, and through the documentation available in YALMIP's website.
+
 This code has been tested with MATLAB version 2017b.
