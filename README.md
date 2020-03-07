@@ -12,6 +12,8 @@ YALMIP is very easy to use. Once installed, you can learn how to use it with fil
 
 This code has been tested with MATLAB version 2017b.
 
+----
+
 If you use this code for your own work, please cite this paper:
  <ol>
   <li>  L. Badesa, F. Teng, and G. Strbac, "<b>Simultaneous Scheduling of Multiple Frequency Services in Stochastic Unit Commitment</b>," <i>IEEE Transactions on Power Systems</i>, vol. 34, no. 5, pp. 3858-3868, 2019.
