@@ -15,6 +15,6 @@ This code has been tested with MATLAB version 2017b.
 ----
 
 If you use this code for your own work, please cite this paper:
- <ol>
-  <li>  S. Camal, F. Teng, A. Michiorri, G. Kariniotakis and L. Badesa, "<b>Scenario generation of aggregated Wind, Photovoltaics and small Hydro production for power systems applications</b>," <i>Applied Energy</i>, vol. 242, pp. 1396-1406, 2019. 
-</ol> 
+<ol>
+  <li>  L. Badesa, F. Teng, and G. Strbac, "<b>Simultaneous Scheduling of Multiple Frequency Services in Stochastic Unit Commitment</b>," <i>IEEE Transactions on Power Systems</i>, vol. 34, no. 5, pp. 3858-3868, 2019.
+</ol>  
